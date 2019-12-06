@@ -1,5 +1,7 @@
 body {
-    background-color: cornsilk;
+    background-image: url("Assets/css/coffee-background.jpg");
+    background-size: cover;
+    background-repeat: norepeat;
 }
 
 .header {
@@ -16,12 +18,14 @@ img {
 .body {
     margin-left: 225px;
     width: 700px;
+    height: 960px;
     border-width: 10px;
     border-color: black;
     padding: 25px;
     background-color: cadetblue;
 }
 #links {
+    margin-bottom: 50px;
     margin-right: 242px;
         float: right;
 }
@@ -29,12 +33,14 @@ img {
     color: white;
 }
 #name {    
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-left: 200px;
     height: 100%;
-    width: 21% ;
-    font-weight: 35px;
-    font-size: 35px;
-    padding: 30;
+    width: 17%;
+    display: inline;
+    font-weight: 30px;
+    font-size: 25px;
+    padding: 30px;
     background-color: teal;
 }
 footer {
@@ -43,7 +49,7 @@ footer {
     padding: 30px;
     border-top: 20px black solid;
     margin-top: 25px;
-    }
+      }
     .details {
         background-color: white;
         padding: 15px;

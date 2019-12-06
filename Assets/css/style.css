@@ -14,6 +14,7 @@ img {
 }
 
 .body {
+    margin-left: 225px;
     width: 700px;
     border-width: 10px;
     border-color: black;
@@ -21,12 +22,45 @@ img {
     background-color: cadetblue;
 }
 #links {
+    margin-right: 242px;
         float: right;
 }
 .in-link {
     color: white;
 }
-#name {
+#name {    
+    margin-left: 200px;
+    height: 100%;
+    width: 21% ;
     font-weight: 35px;
     font-size: 35px;
+    padding: 30;
+    background-color: teal;
 }
+footer {
+    text-align: center;
+    background-color: #3f51b5;
+    padding: 30px;
+    border-top: 20px black solid;
+    margin-top: 25px;
+    }
+    .details {
+        background-color: white;
+        padding: 15px;
+        width: 89%px;
+        height: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #bio-message {
+        background-color: white;
+        margin-top: 0px;    
+    }
+
+    button {
+        background-color: teal
+        color: black;
+        font-weight: 45px;
+
+    }

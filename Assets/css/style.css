@@ -1,23 +1,26 @@
 body {
     background-image: url("Assets/css/coffee-background.jpg");
     background-size: cover;
-    background-repeat: norepeat;
+    background-repeat: no-repeat;
 }
 
 .header {
     padding: 30px;
     background-color: #3f51b5;
     box-sizing: border-box;
+    font-family: 'Solway', serif;
        }
 
-img {
+#about-image {
     float: left;
     margin: 0px 25px 0px 0px;
 }
 
 .body {
-    margin-left: 120px;
+    box-sizing: border-box;
+    margin-left: 120px;    
     width: 960px;
+    clear: both;
     height: auto;
     border-width: 10px;
     border-color: black;
@@ -26,14 +29,13 @@ img {
 }
 #links {
     margin-bottom: 50px;
-    margin-right: 90px;
+    margin-right: 140px;
         float: right;
 }
 .in-link {
     color: white;
 }
-#name {    
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+#name {        
     margin-left: 90px;
     height: 100%;
     width: 17%;
@@ -71,3 +73,51 @@ footer {
         font-weight: 45px;
 
     }
+    #arabica {
+        position: relative;
+        display: block;
+    }
+    #dark {
+        position: absolute;
+        display: block;
+        top: 41.2%;
+        left: 30%;
+        
+    }
+    #ethi {
+        position: relative;
+        display: block;
+    }
+    #rob {
+        position: absolute;
+        display: block;
+        top: 83.2%;
+        left: 30%;
+    }
+    #tan {
+        position: relative;
+        display: block;
+    }
+    .coffee {
+        /* overflow: inherit; */
+        /* size: inherit; */
+
+        padding: 20px;
+        position: absolute;
+        display: inline;
+        background-color: teal;
+        font-size: 18px;
+        text-align: center;
+        top: 120px;
+        left: 1px;
+    }
+    
+    /* .coffee {
+        padding: 20px;
+        background-color: brown;
+        position: absolute;
+        display: inline;
+        z-index: -5px;
+    }
+    
+    

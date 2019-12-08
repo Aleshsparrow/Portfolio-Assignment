@@ -17,6 +17,7 @@ body {
 }
 
 .body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     margin-left: 120px;    
     width: 960px;
@@ -25,7 +26,7 @@ body {
     border-width: 10px;
     border-color: black;
     padding: 25px;
-    background-color: cadetblue;
+    background-color: teal;
 }
 #links {
     margin-bottom: 50px;
@@ -49,7 +50,7 @@ footer {
     text-align: center;
     background-color: #3f51b5;
     padding: 30px;
-    border-top: 20px black solid;
+    border-top: 8px black solid;
     margin-top: 25px;
     position: sticky;
       }
@@ -64,7 +65,8 @@ footer {
 
     #bio-message {
         background-color: white;
-        margin-top: 0px;    
+        margin-top: 0px;   
+        margin-top: -13px; 
     }
 
     button {
@@ -80,8 +82,8 @@ footer {
     #dark {
         position: absolute;
         display: block;
-        top: 41.2%;
-        left: 30%;
+        top: 38%;
+        right: 54%;
         
     }
     #ethi {
@@ -91,33 +93,28 @@ footer {
     #rob {
         position: absolute;
         display: block;
-        top: 83.2%;
-        left: 30%;
+        top: 77%;
+        right: 54%;
     }
     #tan {
         position: relative;
         display: block;
     }
-    .coffee {
-        /* overflow: inherit; */
-        /* size: inherit; */
-
-        padding: 20px;
-        position: absolute;
-        display: inline;
+    .coffee {        
+        padding: 5px;
+        position: absolute;       
         background-color: teal;
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
-        top: 120px;
+        top: 165px;
         left: 1px;
     }
-    
-    /* .coffee {
-        padding: 20px;
-        background-color: brown;
-        position: absolute;
-        display: inline;
-        z-index: -5px;
+    img {
+        margin-bottom: 20px;
+        right: 20px;
     }
-    
-    
+    #copyright {
+        bottom: -14px;
+        left: 567px;
+        position: absolute;
+    }
